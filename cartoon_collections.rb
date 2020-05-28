@@ -20,7 +20,8 @@ end
 # calls = ["puff", "go", "two" ,"abcde"]
 # puts long_planeteer_calls(calls)
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(snacks)
+  # the array below is here to help\
+  snacks.find {|snack| snack.include?(cheese_types) }
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
