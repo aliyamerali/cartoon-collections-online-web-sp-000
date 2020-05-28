@@ -18,7 +18,7 @@ def long_planeteer_calls(calls)
 end
 
 calls = ["puff", "go", "two"]
-print long_planeteer_calls(calls)
+puts long_planeteer_calls(calls)
 
 def find_the_cheese# code an argument here
   # the array below is here to help
