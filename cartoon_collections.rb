@@ -26,5 +26,5 @@ def find_the_cheese(snacks)
   snacks.find {|snack| cheese_types.include?(snack) }
 end
 
-snacks = ["crackers", "fish", "thyme"]
-puts find_the_cheese(snacks)
+# snacks = ["crackers", "fish", "thyme"]
+# puts find_the_cheese(snacks)
